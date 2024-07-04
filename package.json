@@ -1,16 +1,19 @@
 {
   "name": "zero_copy_project",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "The savvy cats over at SMART Pump would like to be able to allow users to login to their account, check their balance and update their personal details. Write a simple web application (API and UI) using node.js and lowdb that lets users accomplish those tasks.",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.4"
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "lowdb": "^3.0.0"
   }
 }

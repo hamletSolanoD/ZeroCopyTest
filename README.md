@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Simple Developer Exercise 
 
-## Getting Started
+The savvy cats over at SMART Pump would like to be able to allow users to login to their account, check their balance and update their personal details. Write a simple web application (API and UI) using node.js and lowdb that lets users accomplish those tasks. 
 
-First, run the development server:
+Feel free to use any other libraries or tool chains as long as the core code is javascript and node.js. npm (https://www.npmjs.org) is your friend - no need to recreate the wheel. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+You will find the base data file in `/data`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Wireframes: `assets/wireframes.png`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Time limits
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This exercise is meant showcase your creativity and talent in problem solving against a real world scenario. To that end it should not consume your every waking moment. We recommend at max spending 3 evenings of time on the exercise. 
 
-## Learn More
+## Requirements
 
-To learn more about Next.js, take a look at the following resources:
+* Login to the app via email and password
+* Restrict access to valid a User
+* Once logged in show the details of the user on the page
+* Authorized users can check their account balance
+* Allow the user to change their details
+* lowdb (DB) -> https://github.com/typicode/lowdb
+* node.js -> http://nodejs.org/ 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Bonus Points
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* Fully responsive UI
+* Unit Tests of the API
+* Functional Tests of the UI
